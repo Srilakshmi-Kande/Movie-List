@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Page</title>
+    <link rel="stylesheet" href="MPCSS.css">
+    <script src="MPJS.js"></script>
+    <style>
+        #page-banner h1{
+            font-family: lucida calligraphy;
+            font-size: 1cm;
+            text-shadow: 5px 8px 9px cyan;
+        }
+        #page-banner p{
+            font-family:clattering;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title" style="color: #fff;">Movie Time</h1>
+                <p style="color: #fff;">A Curated list of Most Amazing Movies</p><br>
+            </div>
+        </header>
+        <div id="movie-list">
+            <h2 class="title">Movies to Watch</h2>
+            <ul>
+                <li>
+                    <span class="name">Pushpa-2</span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="name">Amaran</span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="name">Ka</span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="name">Seeta Ramam</span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="name">Lukky Bhasker</span>
+                    <span class="delete">Delete</span>
+                </li>
+            </ul>
+        </div>
+        <form id="add-movie">
+            <input type="text" placeholder="Enter a new movie to your movie list.." />
+            <button>Add</button>
+        </form>
+    </div>
+</body>
+</html>
